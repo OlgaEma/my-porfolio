@@ -1,0 +1,62 @@
+header{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    
+}
+
+.box_container{
+    font-size: 1.5rem;
+    margin-right: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1;
+    background-color: white;
+}
+
+
+
+.box{
+    background-color: #232323;
+    color: white;
+    flex: 1; 
+    border: 0px solid #ccc; 
+    padding: 10px; 
+    text-align: center; 
+}
+.box__logo{
+    display: flex;
+    background-color: white;
+
+}
+
+.box__logo__1{
+    color: black;
+    font-family: 'Sansita Swashed', system-ui;
+}
+.box__logo__2{
+    color: #54be90;
+    font-family: 'Sansita Swashed', system-ui;
+}
+
+.BG{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 2rem;
+    align-items: center;
+    background-image: url('../imges/stars-2643089_640.jpg');
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-underline {
+        color: #54be90; /* Text color */
+        border-bottom: 8px solid white; /* Underline color and style */
+        text-decoration: none; /* Remove the default underline */
+      }
+    
+    
